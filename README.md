@@ -11,7 +11,7 @@ During registration time, parents are told that they can choose any of 12 elemen
 Since the school district is a public entity, some records are available via the Freedom of Information Act (aka, FOIA). Fortunately, I have submitted FOIA requests for several years so I have a sufficient amount of data to show trends. Yet the downside is that each year of data is delivered in different formats or different mediums, and so I have to syntehsize a common table structure to store the data.
 
 ### Table structure
-I propose to three tables
+I propose to create three tables
 
 #### Schools
 The Schools table will hold basic information about each school
