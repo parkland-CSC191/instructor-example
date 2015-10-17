@@ -55,3 +55,6 @@ user: example_reader
 password: #redaer_elpmaxe#2015
 database: example
 ```
+
+### Queries
++ [Sample 1: Initial queries to investigate the data](query_samples_1.sql)
