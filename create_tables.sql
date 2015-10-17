@@ -1,6 +1,7 @@
 create table schools (
     school_id tinyint not null,
-    school_name varchar(50) not null
+    school_name varchar(50) not null,
+    school_short_name varchar(3) not null
     );
 
 ALTER TABLE schools ADD PRIMARY KEY(school_id);
