@@ -10,6 +10,11 @@ During registration time, parents are told that they can choose any of 12 elemen
 ### Acquiring data
 Since the school district is a public entity, some records are available via the Freedom of Information Act (aka, FOIA). Fortunately, I have submitted FOIA requests for several years so I have a sufficient amount of data to show trends. Yet the downside is that each year of data is delivered in different formats or different mediums, and so I have to syntehsize a common table structure to store the data.
 
+#### Scripts to populate data
++ [SQL to create new tables](create_tables.sql)
++ [Import data from Open Document Spreadsheet](Creating-new-tables-for-project-mysql.pdf)
++ [SQL to insert data from imported tables](insert_from_imported_tables.sql)
+
 ### Table structure
 I propose to create three tables
 
