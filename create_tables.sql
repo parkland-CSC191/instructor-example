@@ -8,7 +8,7 @@ ALTER TABLE schools ADD PRIMARY KEY(school_id);
 
 create table school_capacity (
     school_id tinyint not null,
-    year tinyint not null,
+    year smallint not null,
     capacity tinyint not null
     );
 
@@ -16,7 +16,7 @@ ALTER TABLE school_capacity ADD PRIMARY KEY(school_id, year);
 ALTER TABLE school_capacity ADD FOREIGN KEY (school_id) references schools(school_id);
 
 create table choices (
-    year tinyint not null,
+    year smallint not null,
     choice1 tinyint not null,
     choice2 tinyint,
     choice3 tinyint,
