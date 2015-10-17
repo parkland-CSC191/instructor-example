@@ -21,3 +21,13 @@ WHERE `UNIT 4` is not null and `UNIT 4` != 'CODE' and `UNIT 4` != 'TOTALS:'
 group by `UNIT 4`, `TEST 2`) a )
 ;
 
+insert into `school_capacity` (
+    select school_id,
+'2012',
+    capacity
+from (
+SELECT `UNIT 4` school_id, `TEST 2` school_short_name, sum(D) capacity
+FROM `SC`
+WHERE `UNIT 4` is not null and `UNIT 4` != 'CODE' and `UNIT 4` != 'TOTALS:'
+group by `UNIT 4`, `TEST 2`) a )
+;
