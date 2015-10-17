@@ -17,6 +17,7 @@ I propose to create three tables
 The Schools table will hold basic information about each school
 + school_id (2-digit number)
 + school_name (variable length string)
++ school_short_name (variable length string)
 
 #### School_capacity
 School_capacity will hold information about the capacity for each school each year (it doesn't change much, but it does change). The 'year' is the beginning of the school year, thus '2014' would be the 2014-2015 school year.
