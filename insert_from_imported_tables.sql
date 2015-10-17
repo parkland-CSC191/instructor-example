@@ -21,6 +21,10 @@ WHERE `UNIT 4` is not null and `UNIT 4` != 'CODE' and `UNIT 4` != 'TOTALS:'
 group by `UNIT 4`, `TEST 2`) a )
 ;
 
+-- add an entry for an 'unassigned' school (some data elements use 0 to indicate the unassigned status
+insert into  `schools` values (0,'No school','N/A');
+
+
 insert into `school_capacity` (
     select school_id,
 '2012',
