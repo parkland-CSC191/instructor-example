@@ -42,3 +42,9 @@ Choices will hold all choices made by each family for each year
 + choice12 (2-digit number)
 + assigned_school (2-digit number)
 
+### Public database
+host: onyx.csit.parkland.edu
+port: 35002
+user: example_reader
+password: #redaer_elpmaxe#2015
+database: example
