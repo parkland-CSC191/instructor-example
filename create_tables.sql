@@ -17,7 +17,7 @@ ALTER TABLE school_capacity ADD FOREIGN KEY (school_id) references schools(schoo
 
 create table choices (
     year smallint not null,
-    choice1 tinyint not null,
+    choice1 tinyint,
     choice2 tinyint,
     choice3 tinyint,
     choice4 tinyint,
